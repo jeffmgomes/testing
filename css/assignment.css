@@ -1,0 +1,209 @@
+/* ========== Skranji - Font Family ========== */
+@font-face{	
+	font-family: "Skranji";
+	src: url("../fonts/Skranji/Skranji-Regular.ttf");	
+}
+
+/* ========== Body Style ========== */
+body{
+	background-image: url("../images/crowd_image_large.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: "Skranji", cursive;
+	font-size: 19px;
+	color: #f2f2f2;
+}
+
+/* ========== Main Content Style ========== */
+.container{
+	width: 80%;
+	max-width: 1260px;
+	min-width: 1090px;
+	margin: 0 auto;	
+}
+
+/* ========== Header Style ========== */
+header{
+	width: 100%;
+	height: 150px;
+	text-align: center;
+}
+
+/* ========== Navigation Style ========== */
+nav{
+	width: 22%;
+	height: 730px;
+	font-size: 30px;	
+	float: left;
+	border-radius: 10px;
+	margin-right:5px;
+	padding-top: 20px;
+	background-color: black;
+	position: relative;
+}
+.navlinks{
+	color:white;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.navlinks:hover{
+	color:#cc0000;
+	text-transform: uppercase;
+	text-shadow: 1px 0 1px #fff;
+}
+.navImg{
+	width: 150px;
+	position: absolute;
+	bottom: 5%;
+	left: 20%;	
+	transition: 2s;
+}
+.navImg:hover{
+	-ms-transform: translate(0px, -200px); /* IE 9 */
+	-webkit-transform: translate(0px, -200px); /* Chrome, Safari, Opera */
+	transform: translate(0px, -200px);
+}
+.imgSeparator{
+	padding-left: 30px;
+	padding-right: 30px;
+	float:left;
+}
+/* ID to identificate the active page*/
+#active{
+	color:#cc0000;
+	text-transform: uppercase;
+	text-shadow: 1px 0 1px #fff;
+}
+
+/* ========== Section Style ========== */
+section{
+	width: 73%;
+	height: 750px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+	background-color: black;
+}
+
+/* ========== Footer ========== */
+footer{
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+
+/* ========== Figure style - Home page ========== */
+figure{
+	width: 500px;
+	height: 281px;
+	border: solid 5px #d9d9d9;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+
+/* ========== List style - Discography page ========== */
+.list{
+	width: 85%;
+	background-color: black;
+	color: white;
+	margin: 0 auto;
+}
+
+.list:hover{
+	background-color: white;
+	color: black;
+}
+
+/* ========== Image rotation - Videos page ========== */
+.rotateleft{
+	-ms-transform: rotate(7deg); /* IE 9 */
+	-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+	transform: rotate(7deg);
+	transition: transform 2s;
+}
+.rotateright{
+	-ms-transform: rotate(-7deg); /* IE 9 */
+	-webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+	transform: rotate(-7deg);
+	transition: transform 2s;
+}
+.rotateleft:hover{
+	-ms-transform: rotate(360deg); /* IE 9 */
+	-webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+	transform: rotate(360deg);
+}
+.rotateright:hover{
+	-ms-transform: rotate(360deg); /* IE 9 */
+	-webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+	transform: rotate(360deg);
+}
+
+
+/* ========== Paragraph style ========== */
+p:first-letter{
+	text-transform: capitalize;
+	font-size: 200%;
+	color:#cc0000;
+	text-shadow: 1px 0 1px #fff;
+}
+
+/* ========== Headers style ========== */
+h2, h3{
+	color:#cc0000;	
+	text-align: center;
+	text-shadow: 1px 0 1px #fff;
+}
+
+/* ========== Table style ========== */
+table{	
+	text-align: center;	
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+th, td {
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+th{
+	background-color: #f2f2f2;
+	color: #cc0000;
+}
+
+th:first-child{
+	border-top-left-radius: 10px;
+}
+th:last-child{
+	border-top-right-radius: 10px;	
+}
+/* Style for the last row of the table - Creating a footer*/
+td:only-child{
+	background-color: #fff;
+	height: 20px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;	
+}
+tr:hover{
+	background-color: #f2f2f2;
+	color: #000;
+}
+
+/* ========== Video page ========== */
+video{
+	margin: 0 auto;
+	display: block; /* Displays the element as a block. Starting in a new line and takes the whole width - It is important to center the video element*/	
+}
+video:hover{
+	box-shadow: 0 0 9px lightblue;
+}
+.links{
+	margin: 0 auto;
+	margin-top: 20px;
+	border: dotted 5px #cc0000;
+	border-radius: 15px 15px;
+	width: 400px;
+	text-align: center;
+	color:white;
+}
